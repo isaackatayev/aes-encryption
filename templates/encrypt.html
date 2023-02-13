@@ -1,0 +1,89 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AES Encyption Online</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
+</style>
+  <style>
+body{
+    background: rgb(251,97,97);
+background: -moz-linear-gradient(128deg, rgba(251,97,97,1) 39%, rgba(255,137,90,1) 76%);
+background: -webkit-linear-gradient(128deg, rgba(251,97,97,1) 39%, rgba(255,137,90,1) 76%);
+background: linear-gradient(128deg, rgba(251,97,97,1) 39%, rgba(255,137,90,1) 76%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fb6161",endColorstr="#ff895a",GradientType=1);
+font-family: 'Montserrat', sans-serif;
+  text-align:center;
+  line-height: 3;
+  font-weight:200;
+}
+h1{
+
+  font-weight:500;
+}
+.textbox{
+opacity: .5;
+  
+}
+input{
+  border-radius: 25px;
+  border: 0px solid black;
+}
+.submit{
+  background: #FFFFFF;
+  opacity: .7;
+  font-weight:200;
+  
+}
+.div1{
+  
+  
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom:200px;
+  
+  
+  
+}
+.result {
+  background-color:white;
+  padding:2px;
+  padding-left:20px;
+  padding-right:20px;
+  display:inline-block;
+  border-radius:20px;
+  
+}
+.description{
+
+line-height: normal;
+position:relative;
+  
+}
+  </style>
+</head>
+<body>
+ <h1 style="margin-top:30vh; position:relative ;">AES Encryption Online</h1>
+        <p class="description">Encrypt data online using AES. Advanced Encryption Standard, popularly known as AES, is a widely used encryption algorithm. It is a symmetric encryption algorithm, meaning the same key is used to encrypt and decrypt data. This site's AES uses the CBC (Ciphertext Block Chaining) mode and is AES-128. This site is for demonstration purposes only.</p>
+
+<div class="div1">
+   
+  <form method="POST">
+    
+    <label for="plaintext">Plaintext:</label><br>
+    <input name="plaintext" class="textbox"></input><br>
+    <label for="iv">Initialization Vector (IV):</label><br>
+    <input name="iv"class="textbox"><br>
+    <label for="key">Key:</label><br>
+    <input name="key"class="textbox"><br>
+    <input type="submit" class="submit" value="View output" style="margin-top:25px; font-family: 'Montserrat', sans-serif;">
+
+</form>
+  <a href="/returntodecrypt" style="color:black;">Need AES decryption?</a>
+</div>
+  
+</body>
+  
+</html>
