@@ -5,5 +5,5 @@ I made this for a math research paper in my 2021-2022 school year. It takes in a
 
 Made in Python 3 and depends on Flask (web server), Pycrypto, and BS4. 
 
-Deploy to Replit:
+Deploy to Replit: <br>
 [![Run on Repl.it](https://repl.it/badge/github/isaackatayev/aes-encryption)](https://repl.it/github/isaackatayev/aes-encryption)
